@@ -31,7 +31,3 @@ class Oyster
     click_button('Sign in')
   end
 end
-
-oyster = Oyster.new
-oyster.log_in
-oyster.get_journey_total_from_week_ago
